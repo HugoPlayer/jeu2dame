@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Secular+One&display=swap');
+
+section{
+    display:flex;
+}
+
+label{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+input{
+    border: 3px solid CornflowerBlue;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    color: CornflowerBlue;
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+input:hover{
+    background: CornflowerBlue;
+    color: white;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+input[type="file"] {
+    display:None;
+}
+::placeholder:hover{
+    color:white;
+}
+
+#fenetre_centre{
+    margin: auto;
+    width: 45%;
+    height: 40%;
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content : space-around;
+}
+#fenetre_centre input{
+    border: 3px solid CornflowerBlue;
+    border-radius: 5px;
+    text-align: center;
+}
+#fenetre_centre h2{
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 25px;
+}
+.custom-file-upload{
+    border: 3px solid CornflowerBlue;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    color: CornflowerBlue;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Merriweather Sans', sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+.custom-file-upload:hover{
+    background: CornflowerBlue;
+    color: white;
+}

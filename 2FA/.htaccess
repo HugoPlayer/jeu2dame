@@ -1,0 +1,8 @@
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{REQUEST_URI} (config) [NC]
+RewriteRule .* - [F,L]
+RewriteRule ^2FA_activation$  /2FA/2FA_activation.php [L]
+RewriteRule ^2FA_desactivation$  /2FA/2FA_desactivation.php [L]
+RewriteRule ^2FA_login$  /2FA/2FA_login.php [L]

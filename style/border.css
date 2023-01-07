@@ -1,0 +1,83 @@
+/* Fichier à modifier uniquement pour l'entete et le bas de page */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Secular+One&display=swap');
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    height: 100%;
+	width: 100%;
+}
+button{
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: CornflowerBlue;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Merriweather Sans', sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+button:hover{
+    background: CornflowerBlue;
+    color: white;
+    font-size: 15px;
+    padding: 6.5px;
+}
+button:disabled{
+    background: lightgrey;
+    border: 3px solid grey;
+    color: grey;
+}
+header{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: CornflowerBlue;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+.header_titre{
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+.header_button{
+    margin-right: 5px;
+}
+.navbar_connected{
+    display: flex;
+    justify-content: space-around;
+}
+#username_hello{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+section{
+    height: 84%;
+}
+footer{
+    bottom: 0;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: CornflowerBlue;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+.footer_titre{
+    font-size: 20px;
+}
+.footer_link{
+    display: flex;
+    justify-content: space-around;
+}

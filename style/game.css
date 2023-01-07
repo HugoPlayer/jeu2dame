@@ -1,0 +1,93 @@
+section{
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    animation: rainbow 18s ease infinite;
+    background-size: 1800% 1800%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+#game_state{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: CornflowerBlue;
+    border: 3px solid CornflowerBlue;
+    box-shadow: 10px 10px 30px black;
+    border-radius: 10px;
+}
+#fenetre_centre{
+    margin: auto;
+    width: 38%;
+    height: 90%;
+    background: CornflowerBlue;
+    border: 3px solid CornflowerBlue;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    box-shadow: 10px 10px 30px black;
+}
+h2{
+    font-size: 30px;
+}
+#plateau{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plateau table{
+    width: 100%;
+    height: 100%;
+}
+td,th{
+    width: 7%;
+    height: 7%;
+}
+
+.fond_noir{
+    background-image: url(../play/assets/fond_noir.png);
+}
+.fond_blanc{
+    background-image: url(../play/assets/fond_blanc.png);
+}
+.un{
+    background-image: url(../play/assets/pion_blanc.png);
+    background-size: 100%;
+}
+.deux{
+    background-image: url(../play/assets/pion_noir.png);
+    background-size: 100%;
+}
+
+#button_abandon{
+    border: 3px solid CornflowerBlue;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    color: CornflowerBlue;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Merriweather Sans', sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+
+#button_abandon:hover{
+    background: CornflowerBlue;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}

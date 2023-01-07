@@ -1,0 +1,16 @@
+
+# HTID:19478943: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:19478943:
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{REQUEST_URI} (db) [NC]
+RewriteRule .* - [F,L]
+RewriteRule ^register$  /register.php [L]
+RewriteRule ^login$  /login.php [L]
+RewriteRule ^logout$  /logout.php [L]
+RewriteRule ^mail_confirmation$  /mail_confirmation.php [L]
+RewriteRule ^contact$  /contact.php [L]
+RewriteRule ^us$  /us.php [L]
+RewriteRule ^leaderboard$  /leaderboard.php [L]

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Secular+One&display=swap');
+
+section{
+    display:flex;
+    align-items : center;
+    flex-direction : column;
+    justify-content : space-evenly ;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#fenetre_centre{
+    margin: auto;
+    width: 45%;
+    height: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.FAloginbutton{
+    border: 3px solid CornflowerBlue;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    color: CornflowerBlue;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.FAloginbutton:hover{
+    padding: 5px;
+}

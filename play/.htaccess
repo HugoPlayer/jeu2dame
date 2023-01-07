@@ -1,0 +1,7 @@
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^game$  /play/game.php [L]
+RewriteRule ^solo$  /play/solo.php [L]
+RewriteRule ^multi$  /play/multi.php [L]
+RewriteRule ^perso$  /play/perso.php [L]

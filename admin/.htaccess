@@ -1,0 +1,4 @@
+AuthName "Accès restreint - Espace d'administration"
+AuthType Basic
+AuthUserFile "/storage/ssd3/344/18636344/public_html/admin/.htpasswd"
+Require valid-user

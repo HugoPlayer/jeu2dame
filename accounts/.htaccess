@@ -1,0 +1,6 @@
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^profil$  /accounts/profil.php [L]
+RewriteRule ^profil_edit$  /accounts/profil_edit.php [L]
+RewriteRule ^history$  /accounts/history.php [L]
